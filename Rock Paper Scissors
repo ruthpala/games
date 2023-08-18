@@ -20,19 +20,18 @@ while True:
         if computer > choice:
                 print("You Lost!")
             
-        if computer == choice:
+        elif computer == choice:
                 print("Draw!")
 
-        if computer < choice:
-                print("You Lost!")        
+        elif computer < choice:
+                print("You Won!")
+
+        if input("Try again? Y/N ") == "N":
+                break
                 
-while computer == choice or computer < choice:
+while computer == choice or computer > choice:
         
-        input("Try again? Y/N ")
-        continue
-        
- 
-        
+        input("Try again? Y/N ")        
        
 else: input("Try again? Y/N ") == "N"
       
