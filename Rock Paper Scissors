@@ -1,0 +1,38 @@
+import random
+
+while True:    
+
+        actions = ["rock", "paper", "scissors"]
+
+        "rock" > "scissors"
+
+        "scissors" > "paper"
+
+        "paper" > "rock"
+
+
+        computer = random.choice(actions)
+        print(computer)
+
+        choice = input("Enter a choice - rock, paper or scissors? ")
+
+
+        if computer > choice:
+                print("You Lost!")
+            
+        if computer == choice:
+                print("Draw!")
+
+        if computer < choice:
+                print("You Lost!")        
+                
+while computer == choice or computer < choice:
+        
+        input("Try again? Y/N ")
+        continue
+        
+ 
+        
+       
+else: input("Try again? Y/N ") == "N"
+      
